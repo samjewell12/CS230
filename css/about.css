@@ -1,0 +1,30 @@
+body{
+    font-family: 'Consolas';
+    text-align: center;
+
+}
+p{
+    color: red;
+}
+
+.about {
+    background: royalblue;
+    padding: 8px;
+}
+
+.c1{
+    color: indianred;
+
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+.column{
+    float: left;
+    margin-left: 16px;
+    margin: 10px;
+    width: 25%;
+}
