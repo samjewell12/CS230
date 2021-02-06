@@ -6,40 +6,40 @@
         <hl>
             About Us
         </hl>
-        <p>asasdkjfhsdjhgadskjhgkajsdhjkgahjkdshgdkjagsdhjgdsjkhdkjhsadkjfhasdkjf</p>
+        <p>"Reviewing everything, from microwaves to socks!"</p>
     
     </div>
 
     <div class="row">
         <div class= "column">
             <div class= "card">
-                <img src="images/1.png">
+                <img src="images/1.jpg">
                 <div class= "container">
                     <h2>CEO</h2>
                     <p class="c1">Harrison Ford</p>
-                    <p>Email: poopystink@bruh.com</p>
+                    <p>Email: harrisonford@reviews.com</p>
                 </div>
 
             </div>
         </div>
         <div class= "column">
             <div class= "card">
-                <img src="images/2.jpeg">
+                <img src="images/2.jpg">
                 <div class= "container">
-                    <h2>CEO</h2>
-                    <p>Harrison Ford</p>
-                    <p>Email: poopystink@bruh.com</p>
+                    <h2>CO-CEO</h2>
+                    <p>John Stevenson</p>
+                    <p>Email: johnstevenson12@reviews.com</p>
                 </div>
 
             </div>
         </div>
         <div class= "column">
             <div class= "card">
-                <img src="images/3.jpg">
+                <img src="images/3.jpeg">
                 <div class= "container">
-                    <h2>CEO</h2>
-                    <p>Harrison Ford</p>
-                    <p>Email: poopystink@bruh.com</p>
+                    <h2>Reviewer</h2>
+                    <p>Rick Backer</p>
+                    <p>Email: rickbacker23@reviews.com</p>
                 </div>
 
             </div>
@@ -48,20 +48,9 @@
             <div class= "card">
                 <img src="images/4.jpg">
                 <div class= "container">
-                    <h2>CEO</h2>
-                    <p>Harrison Ford</p>
-                    <p>Email: poopystink@bruh.com</p>
-                </div>
-
-            </div>
-        </div>
-        <div class= "column">
-            <div class= "card">
-                <img src="images/5.jpeg">
-                <div class= "container">
-                    <h2>CEO</h2>
-                    <p>Harrison Ford</p>
-                    <p>Email: poopystink@bruh.com</p>
+                    <h2>Reviewer</h2>
+                    <p>Thomas Winkle</p>
+                    <p>Email: thomaswinkle32@reviews.com</p>
                 </div>
 
             </div>
