@@ -31,7 +31,7 @@ if(isset($_POST['signup-submit'])){
             $check + mysqli_stmt_num_rows($stmt);
 
             if($check > 0){
-                header("Location: ../signup.php?error=UsernameToken");
+                header("Location: ../signup.php?error=UsernameTaken");
                 exit();
             }
             else{
