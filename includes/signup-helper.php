@@ -28,7 +28,7 @@ if(isset($_POST['signup-submit'])){
             mysqli_stmt_bind_param($stmt, "s", $username);
             mysqli_stmt_execute($stmt);
             mysqli_stmt_store_result($stmt);
-            $check + mysqli_stmt_num_rows($stmt);
+            $check = mysqli_stmt_num_rows($stmt);
 
             if($check > 0){
                 header("Location: ../signup.php?error=UsernameTaken");
@@ -47,8 +47,8 @@ if(isset($_POST['signup-submit'])){
                     mysqli_stmt_execute($stmt);
                     mysqli_stmt_store_result($stmt);
 
-                    $sqlImg = "INSERT INTO something (uname, fname) VALUES ('$username', '$fname')";
-                    mysqli_query();
+                    $sqlImg = "INSERT INTO something (lname, fname) VALUES ('$username', '$fname')";
+                    mysqli_query($conn, $sqlImg);
 
                     header("Location: ../signup.php?signup=success");
                     exit();

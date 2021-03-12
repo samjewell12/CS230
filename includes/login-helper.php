@@ -37,10 +37,10 @@ if(isset($_POST['signup-submit'])){
                 $_SESSION['fname'] = $data['fname'];
                 $_SESSION['uname'] = $data['uname'];
                 
-                echo "<hl>Success!</hl><p>.$uname</p>";
+                header("Location: ../profile.php?success=login");
             }
             else{
-                header("Location: ../login.phperror=WrongPass");
+                header("Location: ../login.php?error=WrongPass");
                 exit();
             }
         }
