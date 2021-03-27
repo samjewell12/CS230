@@ -31,7 +31,7 @@ CREATE TABLE `gallery` (
   `title` varchar(60) CHARACTER SET utf16 NOT NULL,
   `descript` text CHARACTER SET utf16 NOT NULL,
   `picpath` varchar(80) CHARACTER SET utf16 NOT NULL,
-  `upload_date` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `upload_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `rating` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
